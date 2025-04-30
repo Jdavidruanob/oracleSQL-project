@@ -1,0 +1,52 @@
+
+SQL*Loader: Release 23.0.0.0.0 - Production on Tue Apr 29 20:33:01 2025
+Version 23.7.0.25.01
+
+Copyright (c) 1982, 2025, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   donacion_recompensa.ctl
+Data File:      donacion_recompensa.csv
+  Bad File:     donacion_recompensa.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table DONACION_RECOMPENSA, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+IDDONACION                          FIRST     *   ,  O(") CHARACTER            
+IDEJEMPLAR                           NEXT     *   ,  O(") CHARACTER            
+FECHARECOMPENSA                      NEXT     *   ,  O(") CHARACTER            
+    SQL string for column : "TO_DATE(:fechaRecompensa, 'YYYY-MM-DD')"
+
+
+Table DONACION_RECOMPENSA:
+  10 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 193500 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:            10
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Tue Apr 29 20:33:01 2025
+Run ended on Tue Apr 29 20:33:08 2025
+
+Elapsed time was:     00:00:06.61
+CPU time was:         00:00:00.03

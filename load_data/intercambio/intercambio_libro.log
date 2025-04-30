@@ -1,0 +1,9 @@
+
+SQL*Loader: Release 23.0.0.0.0 - Production on Tue Apr 29 19:44:25 2025
+Version 23.7.0.25.01
+
+Copyright (c) 1982, 2025, Oracle and/or its affiliates.  All rights reserved.
+
+SQL*Loader-500: Unable to open file (intercambio_libro.ctl)
+SQL*Loader-553: file not found
+SQL*Loader-509: System error: El sistema no puede encontrar el archivo especificado.

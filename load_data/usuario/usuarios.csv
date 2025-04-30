@@ -1,0 +1,21 @@
+idUsuario,nombre,email,contrasenia,tipoUsuario,puntosDonacion,nivelPrivilegio,telefono,direccion
+1,Usuario1,usuario1@ejemplo.com,pass1,NORMAL,73,INTERMEDIO,3006003287,Calle 1 #45-2
+2,Usuario2,usuario2@ejemplo.com,pass2,NORMAL,126,PREMIUM,3006009830,Calle 2 #45-4
+3,Usuario3,usuario3@ejemplo.com,pass3,NORMAL,134,PREMIUM,3006008019,Calle 3 #45-6
+4,Usuario4,usuario4@ejemplo.com,pass4,NORMAL,459,PREMIUM,3006007543,Calle 4 #45-8
+5,Usuario5,usuario5@ejemplo.com,pass5,NORMAL,185,BÁSICO,3006003266,Calle 5 #45-10
+6,Usuario6,usuario6@ejemplo.com,pass6,NORMAL,260,INTERMEDIO,3006002489,Calle 6 #45-12
+7,Usuario7,usuario7@ejemplo.com,pass7,ADMIN,,,3006001771,Calle 7 #45-14
+8,Usuario8,usuario8@ejemplo.com,pass8,NORMAL,440,BÁSICO,3006003504,Calle 8 #45-16
+9,Usuario9,usuario9@ejemplo.com,pass9,NORMAL,321,BÁSICO,3006007916,Calle 9 #45-18
+10,Usuario10,usuario10@ejemplo.com,pass10,NORMAL,305,BÁSICO,3006007304,Calle 10 #45-20
+11,Usuario11,usuario11@ejemplo.com,pass11,NORMAL,195,PREMIUM,3006008668,Calle 11 #45-22
+12,Usuario12,usuario12@ejemplo.com,pass12,NORMAL,270,INTERMEDIO,3006001188,Calle 12 #45-24
+13,Usuario13,usuario13@ejemplo.com,pass13,NORMAL,348,PREMIUM,3006002876,Calle 13 #45-26
+14,Usuario14,usuario14@ejemplo.com,pass14,ADMIN,,,3006009797,Calle 14 #45-28
+15,Usuario15,usuario15@ejemplo.com,pass15,NORMAL,384,INTERMEDIO,3006006573,Calle 15 #45-30
+16,Usuario16,usuario16@ejemplo.com,pass16,NORMAL,57,INTERMEDIO,3006008123,Calle 16 #45-32
+17,Usuario17,usuario17@ejemplo.com,pass17,NORMAL,80,INTERMEDIO,3006001053,Calle 17 #45-34
+18,Usuario18,usuario18@ejemplo.com,pass18,NORMAL,488,PREMIUM,3006005315,Calle 18 #45-36
+19,Usuario19,usuario19@ejemplo.com,pass19,NORMAL,497,PREMIUM,3006003927,Calle 19 #45-38
+20,Usuario20,usuario20@ejemplo.com,pass20,NORMAL,259,BÁSICO,3006005889,Calle 20 #45-40

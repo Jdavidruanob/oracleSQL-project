@@ -1,0 +1,11 @@
+LOAD DATA
+INFILE 'autores.csv'
+INTO TABLE autor
+APPEND
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+TRAILING NULLCOLS
+(
+  idAutor,
+  nombres,
+  apellidos
+)

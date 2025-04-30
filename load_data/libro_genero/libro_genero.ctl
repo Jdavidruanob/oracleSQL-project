@@ -1,0 +1,9 @@
+LOAD DATA
+INFILE 'libro_genero.csv'
+INTO TABLE Libro_Genero
+REPLACE
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+(
+    idLibro   INTEGER EXTERNAL,
+    idGenero  INTEGER EXTERNAL
+)

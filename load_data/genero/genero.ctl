@@ -1,0 +1,10 @@
+LOAD DATA
+INFILE 'generos.csv'
+INTO TABLE genero
+FIELDS TERMINATED BY ',' 
+OPTIONALLY ENCLOSED BY '"'
+TRAILING NULLCOLS
+(
+  idGenero,
+  nombreGenero
+)
